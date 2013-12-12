@@ -7,7 +7,109 @@
    ========================================================================== */
 
 
+/* ==========================================================================
+   Mise en forme
+   ========================================================================== */
+
+.upper {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 
 /* ==========================================================================
-   
+   Mise en page
    ========================================================================== */
+
+.dib {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dnone {
+  display: none;
+}
+
+.dtable { display:table }
+
+  .dtable > * { display:row; }
+
+    .dtable > * > * { display:table-cell; }
+
+.accessHide {
+  position: absolute;
+  top: -99999px;
+}
+
+.small {
+  font-size:0.8em;
+}
+
+.big {
+  font-size: 1.2em;
+}
+
+/*====== margin + padding =======*/
+
+/*Small margin*/
+
+.mst { margin-top: 0.5em; }
+
+.msb { margin-bottom: 0.5em; }
+
+.msl { margin-left: 0.5em; }
+
+.msr { margin-right: 0.5em; }
+
+/*Medium margin*/
+
+.mst { margin-top: 1em; }
+
+.msb { margin-bottom: 1em; }
+
+.msl { margin-left: 1em; }
+
+.msr { margin-right: 1em; }
+
+/*Medium margin*/
+
+.mbt { margin-top: 1.5em; }
+
+.mbb { margin-bottom: 1.5em; }
+
+.mbl { margin-left: 1.5em; }
+
+.mbr { margin-right: 1.5em; }
+
+/*Small padding*/
+
+.pst { padding-top: 0.5em; }
+
+.psb { padding-bottom: 0.5em; }
+
+.psl { padding-left: 0.5em; }
+
+.psr { padding-right: 0.5em; }
+
+/*Medium padding*/
+
+.pst { padding-top: 1em; }
+
+.psb { padding-bottom: 1em; }
+
+.psl { padding-left: 1em; }
+
+.psr { padding-right: 1em; }
+
+/*Medium padding*/
+
+.pbt { padding-top: 1.5em; }
+
+.pbb { padding-bottom: 1.5em; }
+
+.pbl { padding-left: 1.5em; }
+
+.mbr { padding-right: 1.5em; }
