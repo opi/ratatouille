@@ -122,7 +122,7 @@ img {
     }
 
   .col3 > * {
-    width: 32.7%;
+    width: 32.65%;
   }
 
     .col3 > *:nth-child(3n+1) {
@@ -130,7 +130,7 @@ img {
     }
 
   .col4 > * {
-    width: 24.3%;
+    width: 24.25%;
   }
 
     .col4 > *:nth-child(4n+1) {
