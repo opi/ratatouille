@@ -103,7 +103,7 @@ img {
 /*Colonnes 2, 3 et 4*/
 
 .col2, .col3, .col4 {
-  letter-spacing: -0.31em;
+  letter-spacing: -5px; /*fix bug ff PC*/
 }
 
 .col2 > *,  .col3 > *,  .col4 > * {
