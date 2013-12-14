@@ -1,4 +1,5 @@
 /*
+  Ratatouille mini Framework css by Thomas LEBEAU
   Base on KNACSS => www.KNACSS.com (2013-10) @author: Raphael Goetter, Alsacreations
   and normalize.css
 */
@@ -19,7 +20,6 @@ body {
   font-size: 1em;
   line-height:1.5;
   margin: 0;
-  font-family: sans-serif;
 }
 
 
