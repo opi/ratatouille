@@ -61,12 +61,13 @@ pre {
   max-width: 61.25em;/*980px*/
 }
 
-iframe, img {
+table, img {
   max-width: 100%;
+  height :auto;
 }
 
-img {
-  height: auto;
+iframe {
+  max-width: 100%;
 }
 
 .fl {
@@ -111,15 +112,31 @@ img {
 
 /*Colonnes 2, 3 et 4*/
 
-.col2, .col3, .col4 {
+.col2, .col3, .col4, .colSidebarLeft, .colSidebarRight {
   letter-spacing: -5px; /*fix bug ff PC*/
 }
 
-.col2 > *,  .col3 > *,  .col4 > * {
+.col2 > *,  .col3 > *,  .col4 > *, .colSidebarLeft > *, .colSidebarRight > * {
   display: inline-block;
   letter-spacing: normal;
   margin-left: 1%;
 }
+
+.colSidebarLeft > *:first-child {
+  width:31%;
+  margin-left:0;
+}
+  .colSidebarLeft > *:first-child + * {
+    width:68%;
+  }
+
+.colSidebarRight > *:first-child {
+  width:68%;
+  margin-left:0;
+}
+  .colSidebarRight > *:first-child + * {
+    width:31%;
+  }
 
   .col2 > * {
     display: inline-block;
