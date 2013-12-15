@@ -22,7 +22,6 @@ body {
   margin: 0;
 }
 
-
 /* ==========================================================================
    Mise en forme
    ========================================================================== */
@@ -252,4 +251,34 @@ table {
 .mbr { padding-right: 1.5em; }
 
 .pbtb { padding: 0 1em; }
+
+
+/* ==========================================================================
+   Internet Explorer
+   ========================================================================== */
+
+/*IE8 and IE9*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*IE8 and IE9*/
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
 
