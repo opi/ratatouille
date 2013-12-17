@@ -286,6 +286,13 @@ video {
     display: inline-block;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  select{
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
+}
+
 /* ==========================================================================
    Medias Queries
    ========================================================================== */
