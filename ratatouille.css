@@ -286,3 +286,22 @@ video {
     display: inline-block;
 }
 
+/* ==========================================================================
+   Medias Queries
+   ========================================================================== */
+
+/*Desktop 1080px*/
+
+@media screen and (max-width: 67.50em) {
+}
+
+/*Tablet 800px*/
+
+@media screen and (max-width: 50em) {
+}
+
+/*Mobile 640px*/
+
+@media screen and (max-width: 40em) {
+}
+
