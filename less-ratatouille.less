@@ -41,3 +41,14 @@
 @upper { text-transform:uppercase; }
 
 @bold { font-weight:bold; } 
+
+@dtable { 
+  display:table;
+  > * {
+    display:table-row;
+    > * {
+      display:table-cell;
+    }
+  }
+}
+
