@@ -117,7 +117,7 @@ input[type="search"] {
 
 .dtable { display:table }
 
-  .dtable > * { display:row; }
+  .dtable > * { display:table-row; }
 
     .dtable > * > * { display:table-cell; }
 
